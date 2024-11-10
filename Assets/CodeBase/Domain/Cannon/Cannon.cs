@@ -1,4 +1,5 @@
 using Domain.CannonBall;
+using Domain.CannonBall.BallSource;
 using UnityEngine;
 
 namespace Domain.Cannon
@@ -7,11 +8,11 @@ namespace Domain.Cannon
     {
         [SerializeField] private float _power;
         [SerializeField] private Transform _shootPoint;
-        [SerializeField] private Ball _ballSource;
+        [SerializeField] private ObjectPoolBallSources _ballSource;
 
         public override void Shoot()
         {
-            Ball ball = Instantiate(_ballSource, _shootPoint);
+            Ball ball = _ballSource.New();
             ball.transform.position = _shootPoint.position;
             ball.ApplyPower(_shootPoint.forward * _power);
         }

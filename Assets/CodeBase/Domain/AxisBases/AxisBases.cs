@@ -17,7 +17,7 @@ namespace Domain.AxisBases
 
         private void Apply()
         {
-            _axis.rotation = Quaternion.Euler(_current.x, -_current.y, 0);
+            _axis.rotation = Quaternion.Euler(-_current.x, _current.y, 0);
         }
         
         public override void Rotate(Vector2 vector)
