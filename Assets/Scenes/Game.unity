@@ -908,7 +908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1915552123463907490, guid: fc392a20025f931449bacaeb5a53f5ca, type: 3}
       propertyPath: m_Name
-      value: cannon_upgrade_01
+      value: "\u0421annon"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc392a20025f931449bacaeb5a53f5ca, type: 3}
