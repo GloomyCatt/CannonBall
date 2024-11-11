@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299204827}
-  m_LocalRotation: {x: 0.029357813, y: -0.014694781, z: 0.00043164002, w: 0.9994609}
+  m_LocalRotation: {x: 0.029357797, y: -0.014694836, z: 0.0004316403, w: 0.9994609}
   m_LocalPosition: {x: 1.230305, y: 2.9390635, z: -3.9634943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -189,13 +189,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171169562905375402}
-  m_LocalRotation: {x: 0.00000003774895, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.002000004, y: 0.7000001, z: 0.83699995}
+  m_LocalRotation: {x: 0.00000007549848, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.002000004, y: 0.70000005, z: 0.837}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1449081834761502991}
-  m_RootOrder: 2
+  m_Father: {fileID: 1915552123463651120}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &723740552518942410
 GameObject:
@@ -227,7 +227,6 @@ Transform:
   m_Children:
   - {fileID: 1915552123463651120}
   - {fileID: 6764642988640783561}
-  - {fileID: 4588883501882204963}
   m_Father: {fileID: 666436590884717978}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -257,11 +256,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915552123463875048}
-  m_LocalRotation: {x: -0.00000003774895, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.06285895, y: -0, z: -0, w: 0.99802244}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4588883501882204963}
   m_Father: {fileID: 1449081834761502991}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _power: 50
   _shootPoint: {fileID: 4588883501882204963}
-  _ballSource: {fileID: 1059961633859943182, guid: 1dbff9f082b487a4e92093c344158c27, type: 3}
+  _ballSource: {fileID: 0}
 --- !u!1 &1915552123463907490
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _axis: {fileID: 1915552123463651120}
-  _current: {x: 0, y: 0}
+  _current: {x: 7.2078567, y: 0}
   _speed: 20
 --- !u!1 &3278951883780702465
 GameObject:
